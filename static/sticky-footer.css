@@ -16,3 +16,9 @@ html {
     background-color: #f5f5f5;
   }
   
+
+
+.jumbotron
+{
+    background-image: url("BakedGoods.jpg");
+}
