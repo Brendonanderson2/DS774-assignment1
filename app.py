@@ -27,6 +27,10 @@ def directory():
 def events():
     return render_template('events.html')
 
+@app.route("/issueslog")
+def issueslog():
+    return render_template('issueslog.html')
+
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
     message = ''
