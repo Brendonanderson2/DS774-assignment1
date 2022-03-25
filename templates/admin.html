@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}<title>Login<title>{% endblock %}
+{% block title %}<title>Admin<title>{% endblock %}
 {% set active_page = "admin" %}
 
 {% block content %}
@@ -8,6 +8,7 @@
   <div class="row">
     <div class="col-sm-12">
 
+    
       <!-- If there is a current user session, display database entries -->
       {% if session['user_id'] %}
       <div class="form-group">
